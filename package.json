@@ -1,0 +1,29 @@
+{
+  "name": "2g-life",
+  "version": "1.0.0",
+  "description": "生成一些适合现代非智能机阅读的内容",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc-w": "tsc --watch",
+    "dev": "nodemon -e ts --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShellBin/2g-life.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShellBin/2g-life/issues"
+  },
+  "homepage": "https://github.com/ShellBin/2g-life#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
