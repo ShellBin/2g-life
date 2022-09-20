@@ -20,9 +20,12 @@
   },
   "homepage": "https://github.com/ShellBin/2g-life#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1"
   },
   "devDependencies": {
+    "@types/express": "^4.17.14",
     "nodemon": "^2.0.20",
     "ts-node": "^10.9.1"
   }

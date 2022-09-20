@@ -1,5 +1,11 @@
-import { getNewsList } from './api/zhihuNews'
+import express from 'express'
+import config from './config'
 
-getNewsList(20220920).then((res) => {
-    console.log(res.data)
-})
+const app = express()
+const router = express.Router()
+
+app.use("/",express.static("./index.html"))
+
+app.listen(config.port, ()=> {
+    console.log(`Example app listening on port ${config.port}!`)
+});
