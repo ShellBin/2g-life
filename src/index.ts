@@ -1,5 +1,6 @@
-import express from 'express'
 import config from './config'
+import express from 'express'
+import expressLayouts from 'express-ejs-layouts'
 
 const app = express()
 const router = express.Router()
@@ -9,3 +10,4 @@ app.use("/",express.static("./index.html"))
 app.listen(config.port, ()=> {
     console.log(`Example app listening on port ${config.port}!`)
 });
+
